@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$twitterBlue: #1da1f2;
+$twitterBlack: #14171a;
+$darkGrey: #657786;
+$lightGrey: #aab8c2;
+$textColor: #555;
+
+.wrapper {
+  display: flex;
+  width: 100%;
+
+  .mobile-nav {
+    display: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,108 @@
+nav {
+    background: #fff;
+    width: 23vw;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+ 
+    .nav-bar {
+        background: #fff;
+        min-height: 100vh;
+        width: 23vw;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 10px 30px 20px 20px;
+
+        .logo {
+            margin-bottom: 20px;
+
+            i {
+                font-size: 28px;
+                color: $twitterBlue;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            
+            a {
+                width: auto;
+                display: flex;
+                margin-bottom: 5px;
+                padding: 10px 13px;
+                color: #333;
+                border-radius: 20px;
+
+                &:hover {
+                    background: rgb(223, 222, 222);
+                }
+
+                .bold {
+                    color: $twitterBlack;
+                    font-weight: bold;
+                }
+
+                i {
+                    font-size: 22px;
+                    margin-right: 20px;
+                }
+
+                li {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .btn {
+            width: auto;
+            background: $twitterBlue;
+            padding: 13px 13px;
+            border-radius: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 20px;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+
+        .nav-account {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                width: 45px;
+                height: auto;
+                border-radius: 50%;
+            }
+
+            .handle {
+                margin-right: 10px;
+
+                h3 {
+                    font-size: 18px;
+                    color: $twitterBlack;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: $darkGrey;
+                }
+            }
+
+            i {
+                color: $twitterBlack;
+            }
+        }
+    }
+}

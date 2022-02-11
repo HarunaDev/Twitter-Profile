@@ -1,0 +1,308 @@
+.profile-page {
+    border-left: 1px solid $lightGrey;
+    border-right: 1px solid $lightGrey;
+    width: 45vw;
+    position: relative;
+    top: 0;
+    left: 23vw;
+    padding-top: 55px;
+    
+    .fixed-top {
+        position: fixed;
+        background: rgba(255, 255, 255, .97);
+        border: 1px solid rgb(218, 218, 218);
+        display: flex;
+        align-items: center;
+        top: 0;
+        left: 23vw;
+        width: 45vw;
+        padding: 5px 20px 5px 15px;
+        z-index: 1000;
+        
+        i {
+            font-size: 18px;
+            margin-right: 30px;
+        }
+
+        .header {
+
+            h3 {
+                font-size: 22px;
+                color: $twitterBlack;
+            }
+
+            p {
+                font-size: 16px;
+                color: #444;
+            }
+        } 
+    }
+
+    .twitter-header {
+        position: relative;
+        width: 100%;
+        height: 180px;
+        background: url(/images/twitter-header.jfif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .twitter-avi {
+            background: url(/images/twitter-avi.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 15px;
+            border: 4px solid #fff;
+            transition: all 650ms ease;
+
+            &:hover {
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url(/images/twitter-avi.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    .profile-btn-wrapper {
+        width: 100%;
+        height: 60px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            background: #fff;
+            padding: 9px 14px;
+            color: $twitterBlack;
+            font-weight: bold;
+            border-radius: 25px;
+            border: 1px solid $lightGrey;
+            transition: all 650ms ease;
+
+            &:hover {
+                background: rgb(219, 218, 218);
+        }
+        }
+       
+        
+    }
+
+    .profile-details {
+        padding: 5px 15px;
+        margin-top: 10px;
+
+        .handle {
+            margin-bottom: 15px;
+
+            h3 {
+                font-size: 22px;
+                color: $twitterBlack;
+            }
+
+            p {
+                font-size: 16px;
+                color: #444;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            color: $twitterBlack;
+            margin-bottom: 10px;
+        }
+
+        .profile-links {
+            margin-bottom: 10px;
+            
+            ul {
+                display: flex;
+                
+                li {
+                    margin-right: 10px;
+                    color: #444;
+                }
+
+                a {
+                    margin-right: 10px;
+                    color: #2b9adf;
+                }
+            }
+        }
+
+        .profile-stats {
+            margin-bottom: 20px;
+
+            a {
+                color: #333;
+                padding-right: 5px;
+
+                small {
+                    color: #555;
+                }
+            }
+
+        }
+
+    }
+
+    .profile-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid rgb(218, 218, 218);
+
+        .tweets {
+            text-align: center;
+            padding: 15px 15px 5px;
+            width: 100%;
+            font-size: 18px;
+            color: #444;
+
+            .border {
+                margin-top: 20px;
+                border-bottom: 2px solid $twitterBlue;
+                border-bottom-width: 3px;
+            }
+
+            &:hover {
+                background: $lightGrey;
+            }
+        }
+    }
+
+    .feeds {
+        // padding: 0 15px;
+
+        .single-tweet {
+            width: auto;
+            height: auto;
+            padding: 10px 15px;
+            border-bottom: .2px solid rgb(218, 218, 218);
+            border-bottom-width: .5px;
+
+            &:hover {
+                background: rgb(240, 240, 240);
+            }
+
+            .tweet-body {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+
+                .tweet-body-profile {
+                    width: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin-right: 20px;
+                    }
+
+                    .tweet-content {
+
+                        .top {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            margin-bottom: 5px;
+
+                            h3 {
+                                font-size: 18px;
+                                color: #333;
+                                margin-right: 10px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                color: #555;
+                                margin-right: 10px;
+
+                                small {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .bottom {
+
+                            p {
+                                font-size: 18px;
+                                color: $twitterBlack;
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 200px;
+                                border-radius: 0%;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+
+            .tweet-icons {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                i {
+                    color: #777;
+                    transition: all 500ms ease;
+
+                    &:nth-child(1) {
+
+                        &:hover {
+                            color: $twitterBlue;
+                        }
+                    }
+
+                    &:nth-child(2) {
+
+                        &:hover {
+                            color: 	#32CD32;
+                        }
+                    }
+
+                    &:nth-child(3) {
+
+                        &:hover {
+                            color: tomato;
+                        }
+                    }
+
+                    &:nth-child(4) {
+
+                        &:hover {
+                            color: $twitterBlue;
+                        }
+                    }
+
+                    &:nth-child(5) {
+
+                        &:hover {
+                            color: $twitterBlue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

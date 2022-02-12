@@ -1,0 +1,48 @@
+nav {
+    max-width: 10vw !important;
+    left: 20px;
+
+    .nav-bar {
+        max-width: 10vw !important;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
+        ul {
+
+            a {
+
+                li {
+                    display: none;
+                }
+                
+            }
+        }
+
+        .btn {
+            width: 60px !important;
+            padding: 5px;
+            li {
+                display: none;
+            }
+
+            i {
+                margin-right: 0;
+            }
+        }
+
+        .nav-account {
+            display: block !important;
+            .handle {
+                display: none;
+            }
+
+            i {
+                display: none;
+            }
+        }
+    }
+
+}

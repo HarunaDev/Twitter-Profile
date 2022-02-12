@@ -1,0 +1,12 @@
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        width: 100vw;
+        padding: 0 20px
+    }
+
+    @import './nav-media-1250';
+
+    @import './profile-media-1250';
+
+    @import './side-media-1250';
+}

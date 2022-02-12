@@ -1,0 +1,21 @@
+.side-menu {
+    left: 11vw;
+    width: 34vw;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    .search {
+        left: 63vw;
+        width: 34vw;        
+    }
+
+    .sticky {
+        .side-menu-gallery {
+            width: 352px;
+
+            img {
+                width: 100px;
+            }
+        }
+    }
+}

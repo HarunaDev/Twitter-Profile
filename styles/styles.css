@@ -466,4 +466,279 @@ nav .nav-bar .nav-account i {
 .profile-page .feeds .single-tweet .tweet-icons i:nth-child(5):hover {
   color: #1da1f2;
 }
+
+.side-menu {
+  width: 30.5vw;
+  left: 23vw;
+  position: relative;
+  padding: 70px 20px 100px;
+}
+
+.side-menu .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+
+.side-menu .sticky .side-menu-gallery {
+  width: 360px;
+  height: auto;
+  margin: auto auto 20px;
+}
+
+.side-menu .sticky .side-menu-gallery img {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 115px;
+  height: 90px;
+}
+
+.side-menu .sticky .side-menu-gallery img:nth-child(1) {
+  border-top-left-radius: 15px;
+}
+
+.side-menu .sticky .side-menu-gallery img:nth-child(3) {
+  border-top-right-radius: 15px;
+}
+
+.side-menu .sticky .side-menu-gallery img:nth-child(4) {
+  border-bottom-left-radius: 15px;
+}
+
+.side-menu .sticky .side-menu-gallery img:nth-child(6) {
+  border-bottom-right-radius: 15px;
+}
+
+.side-menu .sticky .yml {
+  background: #f1f1f1;
+  padding: 10px 0 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.side-menu .sticky .yml h2 {
+  font-size: 20px;
+  color: #14171a;
+  margin: 5px auto 20px 25px;
+}
+
+.side-menu .sticky .yml .yml-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.side-menu .sticky .yml .yml-box:hover {
+  background: #e6e4e4;
+}
+
+.side-menu .sticky .yml .yml-box .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side-menu .sticky .yml .yml-box .box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.side-menu .sticky .yml .yml-box .box .yml-box-details h3 {
+  font-size: 18px;
+  color: #14171a;
+}
+
+.side-menu .sticky .yml .yml-box .box .yml-box-details h3 i {
+  color: #1da1f2;
+}
+
+.side-menu .sticky .yml .yml-box .box .yml-box-details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.side-menu .sticky .yml .yml-box a {
+  background: #14171a;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.side-menu .sticky .yml .yml-link {
+  width: 100%;
+  height: 45px;
+  padding: 10px 0 0 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.side-menu .sticky .yml .yml-link:hover {
+  background: #e6e4e4;
+}
+
+.side-menu .sticky .yml .yml-link a {
+  color: #1da1f2;
+  font-size: 18px;
+}
+
+.side-menu .sticky .tfy {
+  background: #f1f1f1;
+  padding: 10px 0 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.side-menu .sticky .tfy .tfy-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.side-menu .sticky .tfy .tfy-header h3 {
+  font-size: 20px;
+  color: #14171a;
+}
+
+.side-menu .sticky .tfy .tfy-header i {
+  font-size: 16px;
+  color: #666;
+}
+
+.side-menu .sticky .tfy .tfy-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+}
+
+.side-menu .sticky .tfy .tfy-box:hover {
+  background: #e6e4e4;
+}
+
+.side-menu .sticky .tfy .tfy-box .left p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 3px;
+}
+
+.side-menu .sticky .tfy .tfy-box .left h4 {
+  font-size: 18px;
+  color: #14171a;
+  margin-bottom: 3px;
+}
+
+.side-menu .sticky .tfy .tfy-box .right i {
+  color: #444;
+}
+
+.side-menu .sticky .tfy .tfy-link {
+  width: 100%;
+  height: 45px;
+  padding: 10px 0 0 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.side-menu .sticky .tfy .tfy-link:hover {
+  background: #e6e4e4;
+}
+
+.side-menu .sticky .tfy .tfy-link a {
+  color: #1da1f2;
+  font-size: 18px;
+}
+
+.side-menu .sticky .footer .footer-links {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.side-menu .sticky .footer .footer-links a {
+  color: #555;
+  padding: 3px 10px 3px 0;
+}
+
+.side-menu .sticky .footer .footer-bottom {
+  font-size: 15px;
+  color: #555;
+}
+
+.side-menu .search {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 68vw;
+  width: 30.5vw;
+  height: 60px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  z-index: 10000000000;
+}
+
+.side-menu .search .search-box {
+  background: #ececec;
+  width: 80%;
+  border: 1px solid #ececec;
+  border-left: none;
+  padding: 5px 10px;
+  height: 45px;
+  outline: none;
+  border-radius: 0 25px 25px 0;
+}
+
+.side-menu .search .search-box:focus {
+  color: #444;
+  -webkit-box-shadow: 0 0 2px #555;
+          box-shadow: 0 0 2px #555;
+}
+
+.side-menu .search .search-btn {
+  width: 40px;
+  height: 45px;
+  padding-left: 20px;
+  border: 1px solid #ececec;
+  border-right: none;
+  background: #ececec;
+  text-align: center;
+  color: #14171a;
+  border-radius: 25px 0 0 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
 /*# sourceMappingURL=styles.css.map */

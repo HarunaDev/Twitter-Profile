@@ -1,0 +1,263 @@
+.side-menu {
+    width: 30.5vw;
+    left: 23vw;
+    position: relative;
+    padding: 70px 20px 100px;
+
+    .sticky {
+        position: sticky;
+        top: 5px;
+
+
+        .side-menu-gallery {
+            width: 360px;
+            height: auto;
+            margin: auto auto 20px;
+    
+            img {
+                align-content: center;
+                width: 115px;
+                height: 90px;
+    
+                &:nth-child(1) {
+                    border-top-left-radius: 15px;
+                }
+    
+                &:nth-child(3) {
+                    border-top-right-radius: 15px;
+                }
+    
+                &:nth-child(4) {
+                    border-bottom-left-radius: 15px;
+                }
+    
+                &:nth-child(6) {
+                    border-bottom-right-radius: 15px;
+                }
+            }
+        }
+    
+        .yml {
+            background: rgb(241, 241, 241);
+            padding: 10px 0 0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+    
+            h2 {
+                font-size: 20px;
+                color: $twitterBlack;
+                margin: 5px auto 20px 25px;
+    
+            }
+    
+            .yml-box {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 15px 0;
+    
+                &:hover {
+                    background: rgb(230, 228, 228);
+                }
+    
+                .box {
+                    display: flex;
+                    align-items: center;
+    
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+    
+                    .yml-box-details {
+    
+                        h3 {
+                            font-size: 18px;
+                            color: $twitterBlack;
+    
+                            i {
+                                color: $twitterBlue;
+                            }
+                        }
+    
+                        p {
+                            font-size: 16px;
+                            color: #555;
+                        }
+                    }
+                }
+    
+                a {
+                    background: $twitterBlack;
+                    color: #fff;
+                    padding: 7px 15px;
+                    border-radius: 15px;
+                    font-weight: 600;
+                }
+    
+            }
+    
+            .yml-link {
+                width: 100%;
+                height: 45px;
+                padding: 10px 0 0 20px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+    
+                &:hover {
+                    background: rgb(230, 228, 228);
+                }
+    
+                a {
+                    color: $twitterBlue;
+                    font-size: 18px;
+    
+                }
+            }
+        }
+    
+        .tfy {
+            background: rgb(241, 241, 241);
+            padding: 10px 0 0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+    
+            .tfy-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                margin-bottom: 20px;
+    
+                h3 {
+                    font-size: 20px;
+                    color: $twitterBlack;
+                }
+    
+                i {
+                    font-size: 16px;
+                    color: #666;
+                }
+            }
+    
+            .tfy-box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+    
+                &:hover {
+                    background: rgb(230, 228, 228);
+                }
+    
+                .left {
+                    
+                    p {
+                        font-size: 16px;
+                        color: #444;
+                        margin-bottom: 3px;
+                    }
+    
+                    h4 {
+                        font-size: 18px;
+                        color: $twitterBlack;
+                        margin-bottom: 3px;
+                    }
+                }
+    
+                .right {
+    
+                    i {
+                        color: #444;
+                    }
+                }
+            }
+    
+            .tfy-link {
+                width: 100%;
+                height: 45px;
+                padding: 10px 0 0 20px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+    
+                &:hover {
+                    background: rgb(230, 228, 228);
+                }
+    
+                a {
+                    color: $twitterBlue;
+                    font-size: 18px;
+    
+                }
+            }
+        }
+
+        .footer {
+
+            .footer-links {
+                font-size: 14px;
+                margin-bottom: 5px;
+                
+
+                a {
+                    color: #555;
+                    padding: 3px 10px 3px 0;
+                }
+            }
+
+            .footer-bottom {
+                font-size: 15px;
+                color: #555;
+            }
+        }
+
+    }
+
+    .search {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 68vw;
+        width: 30.5vw;
+        height: 60px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+        z-index: 10000000000;
+
+        .search-box {
+            background: rgb(236, 236, 236);
+            width: 80%;
+            border: 1px solid rgb(236, 236, 236);
+            border-left: none;
+            padding: 5px 10px;
+            height: 45px;
+            outline: none;
+            border-radius: 0 25px 25px 0;
+
+            &:focus {
+                color: #444;
+                box-shadow: 0 0 2px #555;
+            }
+        }
+
+        .search-btn {
+            width: 40px;
+            height: 45px;
+            padding-left: 20px;
+            border: 1px solid rgb(236, 236, 236);
+            border-right: none;
+            background: rgb(236, 236, 236);
+            text-align: center;
+            color: $twitterBlack;
+            border-radius: 25px 0 0 25px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+}

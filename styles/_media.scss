@@ -10,3 +10,19 @@
 
     @import './side-media-1250';
 }
+
+@media screen and (max-width: 1020px) {
+    .wrapper {
+        width: auto;
+        padding: 0 50px
+    }
+
+    @import './nav-media-1020';
+
+    @import './profile-media-1020';
+
+    .side-menu {
+        display: none
+    };
+    
+}
